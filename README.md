@@ -1,6 +1,3 @@
-# spese_py
-Script python che permette di tenere traccia delle spese economiche effettuate, con relativa rimanenza da spendere rispetto allo stipendio iniziale
-
 # Tracciatore di Spese Python
 
 Questo script Python permette di collegarsi a un database MySQL per gestire e registrare le spese finanziarie.
