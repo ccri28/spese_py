@@ -49,31 +49,33 @@ class Spese:
         self.listaSpese(False)
         rimanenza = float(stipendio) - self.totale_spesa
         print(f"Rimanenza: {rimanenza} €")
-    
-s = Spese()
 
-menu = """
-       --- MENU SPESE ---
+    def menu(self):
+        menu = """
+        --- MENU SPESE ---
         1. Visualizza spese
         2. Inserire spesa
         3. Calcola rimanenza
         4. Esci
-"""
+        """
 
-while True:
-    scelta = input(menu)
-    if scelta == "1":
-        s.listaSpese()
-    elif scelta == "2":
-        cifra = input("Inserire spesa: ")
-        causale = input("Inserire causale: ")
-        s.inserisciSpesa(cifra, causale)
-    elif scelta == "3":
-        stipendio = input("Inserire stipendio: ")
-        s.calcolaRimanenza(stipendio)
-    elif scelta == "4":
-        print("Sto uscendo")
-        sys.exit(0)
-    else:
-        print("Scelta non valida")
-        sys.exit(0)
+        while True:
+            scelta = input(menu)
+            if scelta == "1":
+                s.listaSpese()
+            elif scelta == "2":
+                cifra = input("Inserire spesa: ")
+                causale = input("Inserire causale: ")
+                s.inserisciSpesa(cifra, causale)
+            elif scelta == "3":
+                stipendio = input("Inserire stipendio: ")
+                s.calcolaRimanenza(stipendio)
+            elif scelta == "4":
+                print("Sto uscendo")
+                sys.exit(0)
+            else:
+                print("Scelta non valida")
+                sys.exit(0)
+    
+s = Spese()
+s.menu()
