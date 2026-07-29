@@ -46,3 +46,7 @@ Crea un file chiamato `dbconfig.json` nella stessa cartella dello script con la 
 python nome_del_tuo_script.py
 ```
 
+## ⚙️ Eseguibile .exe per Windows
+
+E' stato realizzato un eseguibile spese.exe nella cartella `dist` 
+Nota: bisogna mettere il file `dbconfig.json` nella cartella `dist` per far funzionare l'eseguibile
