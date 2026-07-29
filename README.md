@@ -54,3 +54,19 @@ python nome_del_tuo_script.py
 
 E' stato realizzato un eseguibile spese.exe nella cartella `dist` 
 Nota: bisogna mettere il file `dbconfig.json` nella cartella `dist` per far funzionare l'eseguibile
+
+## 📋 Istruzioni realizzazione .exe per Windows
+
+Per poter creare l'eseguibile, bisogna assicurarsi di aver installato `pyinstaller`:
+
+```bash
+pip install pyinstaller
+```
+
+Una volta installato `pyinstaller`, e con l'ambiente venv attivo, lanciare il seguente comando:
+
+```bash
+pyinstaller --onefile --hidden-import=mysql.connector.plugins.mysql_native_password --copy-metadata=mysql-connector-python spese.py
+```
+
+Una volta creato l'esegubile, sarà possibile trovarlo nella cartella `dist`
