@@ -15,10 +15,14 @@ Lo script interagisce con un database contenente una tabella chiamata `spese`. L
 
 Per poter eseguire lo script, è necessario installare la libreria di connessione MySQL per Python.
 
-Esegui il seguente comando nel tuo terminale per installare la dipendenza richiesta:
+Esegui i seguenti comandi nel tuo terminale per installare la dipendenze richieste:
 
 ```bash
 pip install mysql-connector-python
+```
+
+```bash
+pip install pyinstaller
 ```
 
 ## ⚙️ Configurazione del Database
