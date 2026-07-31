@@ -2,6 +2,7 @@
 import mysql.connector
 import sys
 import json
+from tabulate import tabulate
 
 class Spese:
     def __init__(self):
@@ -26,13 +27,21 @@ class Spese:
         # quindi per questo in caso di calcolo rimanenza, devo passare il flag_stampa a False come parametro
         db = self.connectDb()
         cursor = db.cursor()
-        cursor.execute("SELECT * FROM spese")
+        cursor.execute("SELECT euro, causale FROM spese")
         lista_spese = cursor.fetchall()
         self.totale_spesa = 0
+        if flag_stampa == True:
+            print(tabulate(
+                lista_spese,
+                headers=["Euro", "Causale"],
+                tablefmt="grid"
+            ))
         for spesa in lista_spese:
-            self.totale_spesa += spesa[1]
+            self.totale_spesa += spesa[0]
+            """
             if flag_stampa == True:
                 print(f"Spesa: {spesa[1]} € | Causale: {spesa[2]} \n")
+            """
         if flag_stampa == True:
             print(f"Totale speso: {self.totale_spesa} €")
 

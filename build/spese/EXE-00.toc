@@ -141,7 +141,7 @@
  [],
  False,
  False,
- 1785320945,
+ 1785508182,
  [('run.exe',
    'C:\\git_projects\\spese_py\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],

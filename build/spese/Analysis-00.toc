@@ -567,13 +567,24 @@
   ('mysql.connector.errorcode',
    'C:\\git_projects\\spese_py\\venv\\Lib\\site-packages\\mysql\\connector\\errorcode.py',
    'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('tabulate',
+   'C:\\git_projects\\spese_py\\venv\\Lib\\site-packages\\tabulate\\__init__.py',
+   'PYMODULE'),
+  ('html',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\entities.py',
    'PYMODULE'),
   ('json',
    'C:\\Users\\Cristian '
@@ -683,45 +694,33 @@
   ('base_library.zip',
    'C:\\git_projects\\spese_py\\build\\spese\\base_library.zip',
    'DATA')],
- [('posixpath',
+ [('locale',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('operator',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\types.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
    'PYMODULE'),
   ('io',
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\io.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('os',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\os.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('_weakrefset',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_weakrefset.py',
-   'PYMODULE'),
-  ('functools',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\functools.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('enum',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\enum.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\Cristian '
@@ -743,21 +742,25 @@
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py',
    'PYMODULE'),
-  ('_collections_abc',
+  ('stat',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_collections_abc.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
    'PYMODULE'),
-  ('sre_parse',
+  ('linecache',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
    'PYMODULE'),
-  ('operator',
+  ('reprlib',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
    'PYMODULE'),
-  ('keyword',
+  ('weakref',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\keyword.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_weakrefset.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Cristian '
@@ -1247,13 +1250,25 @@
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('types',
+  ('functools',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\types.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\functools.py',
    'PYMODULE'),
-  ('locale',
+  ('os',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\os.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
    'PYMODULE'),
   ('sre_compile',
    'C:\\Users\\Cristian '
@@ -1263,13 +1278,29 @@
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\genericpath.py',
    'PYMODULE'),
-  ('abc',
+  ('posixpath',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
    'PYMODULE'),
   ('heapq',
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\Cristian '
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
    'PYMODULE'),
   ('collections.abc',
    'C:\\Users\\Cristian '
@@ -1279,27 +1310,7 @@
    'C:\\Users\\Cristian '
    'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\__init__.py',
    'PYMODULE'),
-  ('weakref',
+  ('enum',
    'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('linecache',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('ntpath',
-   'C:\\Users\\Cristian '
-   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
+   'Faciano\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\enum.py',
    'PYMODULE')])
