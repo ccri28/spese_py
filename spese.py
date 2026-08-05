@@ -78,7 +78,7 @@ class Spese:
                     cifra = float(cifra)
                 except ValueError:
                     print("Errore: non hai inserito un numero valido.")
-                    self.menu()
+                    continue
                 causale = input("Inserire causale: ")
                 s.inserisciSpesa(cifra, causale)
             elif scelta == "3":
@@ -87,14 +87,14 @@ class Spese:
                     stipendio = float(stipendio)
                 except ValueError:
                     print("Errore: non hai inserito un numero valido.")
-                    self.menu()
+                    continue
                 s.calcolaRimanenza(stipendio)
             elif scelta == "4":
                 print("Sto uscendo")
                 sys.exit(0)
             else:
                 print("Scelta non valida. Riprova.")
-                self.menu()
+                continue
     
 s = Spese()
 s.menu()
